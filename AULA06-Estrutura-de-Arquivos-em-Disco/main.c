@@ -46,7 +46,7 @@ int main() {
     Person obj[2];
     FILE *file;
 
-    file = fopen("file.txt", "w+");
+    file = fopen("output.txt", "w+");
 
     strcpy(obj[0].last, "Ames");
     strcpy(obj[0].first, "Mary");

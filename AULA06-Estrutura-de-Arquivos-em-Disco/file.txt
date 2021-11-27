@@ -1,0 +1,11 @@
+Método 1:
+Ames      Mary      123 Maple      Stillwater     OK74075    
+Mason     Alan      90 Eastate     Ada            OK74820    
+
+Método 2:
+04Ames04Mary09123 Maple10Stillwater02OK0574075
+05Mason04Alan1090 Eastate03Ada02OK0574820
+
+Método 4:
+last=Ames|first=Mary|address=123 Maple|city=Stillwater|state=OK|zip=74075
+last=Mason|first=Alan|address=90 Eastate|city=Ada|state=OK|zip=74820

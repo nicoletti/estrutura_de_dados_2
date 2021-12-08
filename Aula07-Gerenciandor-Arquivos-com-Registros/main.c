@@ -37,8 +37,8 @@ int main(int argc, char *argv[]) {
     while(fgets(linha, TAMANHO, arqEntrada) != NULL ) {
         // strstr - Returns a pointer to the first occurrence of str2 in str1,
         // or a null pointer if str2 is not part of str1.
-        // str1: C string containing the sequence of characters to match.
-        // str2: C string to be scanned.
+        // str1: C string to be scanned.
+        // str2: C string containing the sequence of characters to match.
         if (strstr(linha, argv[1])) {
             printf("%s", linha);
             cont++;
